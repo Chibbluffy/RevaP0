@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.wan.daos.AccountDaoTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-02-24T16:36:17" hostname="Xians-MacBook-Pro.local" time="12.046">
+  <properties/>
+  <testcase name="create_account_test()" classname="dev.wan.daos.AccountDaoTest" time="5.497"/>
+  <testcase name="get_accounts_by_client_id_test()" classname="dev.wan.daos.AccountDaoTest" time="0.634"/>
+  <testcase name="get_account_by_ids_test()" classname="dev.wan.daos.AccountDaoTest" time="0.697"/>
+  <testcase name="update_account_test()" classname="dev.wan.daos.AccountDaoTest" time="2.387"/>
+  <testcase name="delete_account_by_ids()" classname="dev.wan.daos.AccountDaoTest" time="0.594"/>
+  <testcase name="update_account_type_does_not_change_test()" classname="dev.wan.daos.AccountDaoTest" time="2.2"/>
+  <system-out><![CDATA[ INFO [Test worker] (ConnectionUtil.java:16) - Connected to database
+1
+ INFO [Test worker] (AccountDaoDB.java:34) - Client numberOfAccounts was successfully updated for new account creation
+ INFO [Test worker] (AccountDaoDB.java:47) - Account was successfully created
+ INFO [Test worker] (ConnectionUtil.java:16) - Connected to database
+1
+ INFO [Test worker] (AccountDaoDB.java:34) - Client numberOfAccounts was successfully updated for new account creation
+ INFO [Test worker] (AccountDaoDB.java:47) - Account was successfully created
+ INFO [Test worker] (ConnectionUtil.java:16) - Connected to database
+ INFO [Test worker] (ConnectionUtil.java:16) - Connected to database
+ INFO [Test worker] (ConnectionUtil.java:16) - Connected to database
+ INFO [Test worker] (ConnectionUtil.java:16) - Connected to database
+ INFO [Test worker] (ConnectionUtil.java:16) - Connected to database
+ INFO [Test worker] (ConnectionUtil.java:16) - Connected to database
+ INFO [Test worker] (ConnectionUtil.java:16) - Connected to database
+ INFO [Test worker] (ConnectionUtil.java:16) - Connected to database
+ INFO [Test worker] (ConnectionUtil.java:16) - Connected to database
+ INFO [Test worker] (ConnectionUtil.java:16) - Connected to database
+ INFO [Test worker] (ConnectionUtil.java:16) - Connected to database
+]]></system-out>
+  <system-err><![CDATA[Feb 24, 2021 10:36:22 AM dev.wan.daos.AccountDaoTest create_account_test
+INFO: Created account in test
+]]></system-err>
+</testsuite>
